@@ -113,12 +113,45 @@ h3{
 /* Footer */
 
 footer{
-    /* position: fixed; */
+    position: fixed;
     height: 10vh;
     width: 100%;
     left: 0;
     bottom: 0;
     background-color: #0e8bce;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > .foot-links{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    font-size: 16px;
+}
+
+footer > div{
+    background-color: #0e8bce;
+    display: flex;
+}
+
+footer > div > i{
+    background-color: #0e8bce;
     color: white;
-    text-align: center;
+    margin-left: 7px;
+    font-size: 24px;
+}
+
+footer > .foot-links:hover{
+    background-color: #e7f3ff;
+    color: #0e8bce;
+    padding: 25px 30px 25px 30px;
+    border-radius: 16px;
+}
+
+.gg-chevron-left-o, .gg-chevron-right-o{
+    align-self: center;
 }
